@@ -1,0 +1,57 @@
+body{
+    background-image:url("blue.jpg");
+    background-size:cover;
+    background-repeat:repeat;
+    background-color:black;
+    font-size:110%;
+    color:white;
+}
+
+label{
+    width:15%;
+    float: left;
+   font-size:120%;
+   padding-left:30%;
+}
+.button1{
+	background-color:grey;
+	font-size:15px;
+	border:none;
+	border-radius:8px;
+	color:white;
+	padding:6px 27px;
+	margin-right:25px;
+	-webkit-transition-duration:0.4s;
+	transition-duration:0.4s;
+}
+
+.button1:hover{
+	cursor:pointer;
+	background-color:green;
+	color:white;
+}
+.button{
+	background-color:green;
+	font-size:15px;
+	border:none;
+	border-radius:8px;
+	color:white;
+	padding:6px 27px;
+	margin-right:25px;
+	-webkit-transition-duration:0.4s;
+	transition-duration:0.4s;
+}
+
+.button:hover{
+	cursor:pointer;
+	background-color:grey;
+	color:white;
+}
+.content1{
+    width:10%;
+	float:right;
+}
+.full{
+    width:100%;
+    
+}

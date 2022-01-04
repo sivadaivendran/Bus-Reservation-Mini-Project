@@ -1,0 +1,78 @@
+input[type="radio"] {display: none;}
+
+body{
+     background-image:url("1.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-color:springgreen;
+	
+	color:yellow;
+}
+
+.main {
+	margin:auto;
+	padding: 20px 25px 20px 25px;
+	width:500px;
+	height:300px;
+}
+
+.content > div {display:none;padding: 20px 25px 5px;}
+
+label1{
+color: yellow;
+
+	float:left;
+	padding-right:10%;
+	font-size:130%;
+	width:33%;
+	display:block;
+	
+}
+
+label{
+	
+	padding: 10px 10px 10px 10px;
+  
+	}
+
+label:hover {color: yellow; cursor: pointer;}
+input:checked + label {background: #ed5a6a; color: #fff;}
+
+#tab1:checked ~ .content #content1,
+#tab2:checked ~ .content #content2{display:block;}
+
+.button{
+	background-color:#0000FF;
+	font-size:110%;
+	border:none;
+	border-radius:10px;
+	color:white;
+	padding:8px 35px;
+	margin-right:30px;
+	-webkit-transition-duration:0.4s;
+	transition-duration:0.4s;
+}
+
+.button:hover{
+	cursor:pointer;
+	background-color:grey;
+	color:white;
+}
+
+input[id=text]{
+	border-color:white;
+	font-size:17px;
+	color:black;
+	border:none;
+	opacity:0.5;
+	outline:none;
+	border-bottom: 3px solid white;
+	height:35px;
+    transition:height 2s;
+    -webkit-transition:height 2s;
+}
+
+input[type=text].focus{
+	height:60px;
+	font-size:20px;
+}

@@ -1,0 +1,50 @@
+body{
+    background-size:cover;
+    background-repeat:repeat;
+    background-color:blue;
+    font-size:150%;
+    color:white;
+    
+    
+}
+
+.button{
+	background-color:red;
+	font-size:20px;
+	border:none;
+	border-radius:10px;
+	color:white;
+	padding:8px 35px;
+	margin-right:30px;
+	-webkit-transition-duration:0.4s;
+	transition-duration:0.4s;
+}
+
+.button:hover{
+	cursor:pointer;
+	background-color:#1B5D04;
+	color:white;
+}
+label{
+    float:left;
+    padding-left:30%;
+  font-size:115%;
+  color:white;
+    width:30%;
+}
+.content1
+{
+    width:50%;
+    
+    float:right;
+}
+.full{
+    width:100%;
+    
+}
+.part
+{
+    width:100%;
+    float:left;
+}
+
